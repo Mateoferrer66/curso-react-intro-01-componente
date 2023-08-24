@@ -1,3 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React from 'react';
+import logo  from './react512.png';
 import './App.css';
 
 function App() {
@@ -23,7 +26,7 @@ function TodoItem() {
   return (
     <li>
       <span>V</span>
-      <p>Llorar con la Llorona</p>
+      <p>Terminar la tesis</p>
       <span>X</span>
     </li>
   );
